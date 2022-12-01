@@ -1,3 +1,8 @@
+@font-face {
+    font-family: gilroy;
+    src: url(./public/fonts/Gilroy-Regular.ttf)format("truetype");
+}
+
 * {
     font-family: gilroy;
     margin: 0%;
@@ -265,12 +270,18 @@ body {
     height: 100%;
 }
 
+#youtube > p {
+    font-family: gilroy;
+    font-weight: 400;
+}
+
 #pholder {
     margin-top: 3vw;
     height: 50%;
     width: 100%;
     background-color: #222;
-    background-image: url(https://i.stack.imgur.com/SziYe.png);
+    border: 10px solid rgb(78, 71, 72);
+    background-image: url(/public/mb.png);
     background-position: center;
     background-size: contain;
 }
@@ -302,7 +313,7 @@ body {
 #cright {
     width: 30vw;
     height: 30vw;
-    background-image: url(splat-black.png);
+    background-image: url(/public/splat-black.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -312,7 +323,7 @@ body {
     width: 20vw;
     height: 21.5vw;
     /* background-color: #222; */
-    background-image: url(3c1.png);
+    background-image: url(/public/3c1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -341,7 +352,7 @@ body {
     width: 28vw;
     height: 24.5vw;
     /* background-color: #222; */
-    background-image: url(3c1.png);
+    background-image: url(/public/3c1.png);
     background-position: top;
     background-size: cover;
 }
