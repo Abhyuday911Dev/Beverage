@@ -1,0 +1,466 @@
+* {
+    font-family: gilroy;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+html,
+body {
+    /* scroll-snap-type: y mandatory; */
+    scroll-behavior: smooth;
+}
+
+#slide::-webkit-scrollbar{
+    display: none;
+}
+
+#main {
+    background-color: rgb(218, 221, 198);
+}
+
+/* hnav */
+
+#hnav {
+    position: fixed;
+    width: 100%;
+    height: 6vw;
+    /* background-color: rgb(230, 238, 118); */
+    padding-left: 7vw;
+    padding-right: 3.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+
+}
+
+#buy {
+    padding: 6px 10px;
+    font-weight: 500;
+    font-size: 17px;
+    outline: none;
+    background-color: rgb(194, 0, 0);
+    border: none;
+    color: rgb(226, 228, 217);
+}
+
+#lagunitas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lagunitas h5 {
+    font-size: 25px;
+    line-height: 20px;
+    color: rgb(194, 0, 0);
+}
+
+#lagunitas p {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* hnav */
+
+/* vnav */
+
+#vnav {
+    position: fixed;
+    height: 100%;
+    width: 5vw;
+    /* background-color: rgb(180, 117, 117); */
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+    z-index: 10;
+}
+
+#vnavinside {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1.5px solid black;
+}
+
+#vnav i {
+    font-size: 30px;
+}
+
+#ham {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+/* vnav */
+
+#slide {
+    background-color: rgb(218, 221, 198);
+    padding-left: 7vw;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#happy {
+    padding-top: 12vw;
+    /* padding-bottom: 11vw; */
+    margin-left: -7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-snap-align: center;
+    /* background-color: #fff; */
+}
+
+#happy h1 {
+    font-size: 10vw;
+    line-height: 8vw;
+    letter-spacing: -10px;
+    color: rgb(77, 161, 77);
+}
+
+#release {
+    height: 80vh;
+    padding-top: 7vw;
+    /* margin-bottom: 10vw; */
+    display: flex;
+    scroll-snap-align: center;
+}
+
+#rleft {
+    /* background-color: #fff; */
+    width: 40vw;
+    height: 100%;
+}
+
+#unlimitedr {
+    margin-bottom: 10px;
+}
+
+#rlcontent h3 {
+    font-size: 30px;
+    line-height: 27px;
+    font-weight: 800;
+}
+
+#rlcontent h5 {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#lorem1 {
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+#s2buy {
+    padding: 6px 10px;
+    font-weight: 500;
+    font-size: 17px;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: rgb(218, 221, 198);
+    margin-top: 60px;
+}
+
+
+#rright {
+    width: 60vw;
+    height: 100%;
+    /* background-color: #888; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 3.5vw;
+}
+
+#rrightc {
+    /* height: 90%; */
+    width: 20vw;
+    /* background-color: #fff; */
+    padding: 15px 20px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+}
+
+#rrightc h5 {
+    margin-top: 13px;
+}
+
+#alco {
+    font-size: 12px;
+}
+
+.linerr {
+    width: 100%;
+    height: 1.7px;
+    background-color: #111;
+    margin-top: 2px;
+}
+
+#one5 {
+    margin: 7px 0px;
+    display: flex;
+    align-items: center;
+}
+
+#rrlorem {
+    font-size: 10px;
+    margin-left: 6px;
+}
+
+#units {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* moutfeels */
+
+#moutfeels {
+    height: 90vh;
+    width: 100%;
+    /* background-color: #888; */
+    padding-top: 1vw;
+    scroll-snap-align: center;
+
+}
+
+#moutfeels h1 {
+    font-size: 14.6vw;
+    line-height: 13vw;
+    color: rgb(77, 161, 77);
+    margin-left: -15px;
+    /* margin-top: ; */
+}
+
+#moutfeelsc {
+    display: flex;
+}
+
+#mfbl {
+    width: 60%;
+    height: 65vh;
+    /* background-color: #fff; */
+}
+
+#mfbr {
+    width: 40%;
+    height: 65vh;
+    /* background-color: #222; */
+    padding-right: 15%;
+    padding-top: 3vw;
+}
+
+#youtube {
+    width: 50%;
+    height: 100%;
+}
+
+#pholder {
+    margin-top: 3vw;
+    height: 50%;
+    width: 100%;
+    background-color: #222;
+    background-image: url(https://i.stack.imgur.com/SziYe.png);
+    background-position: center;
+    background-size: contain;
+}
+
+#mfbr h2 {
+    padding: 2vw 0vw 0.5vw 0vw;
+}
+
+#mfbr p {
+    font-size: 13px;
+}
+
+#citrus {
+    height: 85vh;
+    width: 100%;
+    /* background-color: rgb(98, 205, 224); */
+    display: flex;
+    scroll-snap-align: center;
+    justify-content: space-between;
+    padding-right: 5vw;
+}
+
+#cleft {
+    width: 55%;
+    height: 100%;
+    /* background-color: #fff; */
+}
+
+#cright {
+    width: 30vw;
+    height: 30vw;
+    background-image: url(splat-black.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#clt {
+    width: 20vw;
+    height: 21.5vw;
+    /* background-color: #222; */
+    background-image: url(3c1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 3vw;
+}
+
+#clb {
+    display: flex;
+    height: 55%;
+    width: 80%;
+    /* background-color: #222; */
+}
+
+#clbl {
+    width: 50%;
+    height: 120%;
+    background-image: url(https://lagunitas.com/wp-content/uploads/2021/07/Hoppy-Refresher-Mason-Jar-671x1024.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    rotate: -20deg;
+}
+
+#clbr {
+    margin-top: -4vw;
+    width: 28vw;
+    height: 24.5vw;
+    /* background-color: #222; */
+    background-image: url(3c1.png);
+    background-position: top;
+    background-size: cover;
+}
+
+#avail {
+    height: 90vh;
+    width: 100%;
+    /* background-color: #999; */
+    scroll-snap-align: center;
+
+}
+
+#avtop{
+    width: 100%;
+    /* background-color: #333; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#avtop p{
+    font-size: 20px;
+}
+
+#avtop h1{
+    font-size: 5vw;
+    line-height: 5vw;
+}
+
+#avbott{
+    width: 100%;
+    height: 70%;
+    /* background-color: #222; */
+    display: flex;
+}
+
+#bottle{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#bottle img{
+    width: 100%;    
+}
+
+#mb{
+    transform: scale(1.2);
+}
+
+#ending{
+    width: 100%;
+    height: 70vh;
+    /* background-color: #222; */
+    display: flex;
+    padding-top: 2vw;
+    scroll-snap-align: end;
+
+}
+
+#endl{
+    width: 50%;
+    height: 100%;
+    /* background-color: pink; */
+}
+
+#endl img{
+    width: 80%;
+}
+
+#endr{
+    width: 50%;
+    height: 100%;
+    /* background-color: #888; */
+    padding-right: 7vw;
+}
+
+#lp1{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#endr h1{
+    font-size: 40px;
+    line-height: 35px;
+}
+
+#endr h4{
+    margin-top: 7px;
+    margin-bottom: 4px;
+}
+
+#lp2{
+    font-size: 13px;
+}
+
+#slbuy{
+    padding: 6px 10px;
+    font-weight: 500;
+    font-size: 17px;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: rgb(218, 221, 198);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#bossbeer{
+    position: absolute;
+    left: 50%;
+    
+    transform: translate(-50%,0%);
+}
+
+#bossbeer img{
+    width: 25vw;
+    transform: rotate(30deg);
+}
